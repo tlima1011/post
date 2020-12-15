@@ -30,11 +30,9 @@ public class Main {
 				,5);
 		Comment c3 = new Comment("Good night");
 		Comment c4 = new Comment("May the Force be with you"); 
-		Comment c5 = new Comment("Fuck you, man ;)"); 
 		
 		p2.addComment(c3);
 		p2.addComment(c4);
-		p2.addComment(c5);
 		System.out.println(p2);		
 		sc.close();
 
